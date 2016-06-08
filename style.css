@@ -1,0 +1,146 @@
+/*
+.main-simon{
+    background-size: auto;
+    height: 700px;
+    border-radius: 100%;
+    background-color: #333;
+*/
+}
+.pad {
+  width: 300px;
+  height: 300px;
+  float: left;
+  z-index: 1;
+  margin: 10px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+}
+
+.shape1 {
+    border-top-left-radius: 300px;
+    background-color: green;
+    width: 150px;
+    height: 300px;
+    border: solid 15px #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*FF 3.5+*/
+-webkit-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333); /*IE 5.5-7*/
+}
+
+.shape2 {
+  float: left;
+  border-top-right-radius: 300px;
+  background-color: red;
+  width: 150px;
+  height: 300px;
+  clear: right;
+    border: solid 15px #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*FF 3.5+*/
+-webkit-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333); /*IE 5.5-7*/
+}
+
+.shape3 {
+  float: left;
+  border-bottom-left-radius: 300px;
+  background-color: yellow;
+  width: 150px;
+  height: 300px;
+    border: solid 15px #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*FF 3.5+*/
+-webkit-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333); /*IE 5.5-7*/
+}
+
+.shape4 {
+  float: left;
+  border-bottom-right-radius: 300px;
+  background-color: blue;
+  width: 150px;
+  height: 300px;
+    border: solid 15px #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*FF 3.5+*/
+-webkit-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333); /*IE 5.5-7*/
+}
+.circle {
+  position: absolute;
+  top: 190px;
+  left: 260px;
+  width: 250px;
+  height: 250px;
+  background: #333;
+  border-radius: 125px;
+    border: solid 15px #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*FF 3.5+*/
+-webkit-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333); /*IE 5.5-7*/
+}
+
+.shape1_clicked{
+    border-top-left-radius: 300px;
+    width: 150px;
+    height: 300px;
+    background-color: green;
+    opacity: 0.6;
+    border: solid 15px #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*FF 3.5+*/
+-webkit-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333); /*IE 5.5-7*/
+}
+.shape2_clicked{
+    float: left;
+    border-top-right-radius: 300px;
+    width: 150px;
+    height: 300px;
+    clear: right;
+    background-color: red;
+    opacity: 0.6;
+    border: solid 15px #fff;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*FF 3.5+*/
+-webkit-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333); /*IE 5.5-7*/
+}
+.shape3_clicked{
+    float: left;
+    border-bottom-left-radius: 300px;
+    width: 150px;
+    height: 300px;
+    background-color: yellow;
+    opacity: 0.6;
+    border: solid 15px #fff;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*FF 3.5+*/
+-webkit-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333); /*IE 5.5-7*/
+}
+.shape4_clicked{
+    float: left;
+    border-bottom-right-radius: 300px;
+    width: 150px;
+    height: 300px;
+    background-color: blue;
+    opacity: 0.6;
+    border: solid 15px #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*FF 3.5+*/
+-webkit-box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 1px 1px 15px 9px rgba(51,51,51,0.5) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=135, Color=#333333); /*IE 5.5-7*/
+}

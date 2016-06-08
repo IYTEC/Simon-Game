@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" href="style.css" rel="stylesheet" />
+        <link type="text/css" href="bootstrap.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="wrapper">
+		<div class="back">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-8 main-simon">
+                         <div class="row">
+                            <div class="col-xs-6 shape1" id="shape1">
+                                <audio preload="auto" id="sound-1">
+                                    <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"/>
+                                    Your Browser does not support Audio Files
+                                </audio>
+                           </div>
+                            <div class="col-xs-6 shape2" id="shape2">
+                                <audio id="sound-2">
+                                    <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"/>
+                                    Your Browser does not support Audio Files
+                                </audio>
+                             </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 shape3" id="shape3">
+                                <audio id="sound-3">
+                                    <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"/>
+                                    Your Browser does not support Audio Files
+                                </audio>
+                            </div>
+                            <div class="col-xs-6 shape4" id="shape4">
+                                <audio id="sound-4">
+                                    <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3">
+                                    Your Browser does not support Audio Files
+                                </audio>
+                            </div>
+                        </div>
+                      <div class="circle" id="cycle"></div>
+                    </div>
+                    <div class="col-xs-2">
+                        <label>STAGE: </label><input type="text" value="0" id="stage" class="form-control"/>
+                        <br> <br>
+                        <span><label class="form-control">STRICT MODE:&nbsp;&nbsp;&nbsp;<input type="checkbox" id="strict_true"/> </label> <br>
+                        <input type="button" class="btn btn-primary" id="start" value="Start"/>&nbsp;&nbsp;
+                        <input type="button" class="btn btn-success" id="reset" value="Reset"/>
+                    </div>
+                </div>
+            </div>
+		</div>        
+        <script type="text/javascript" src="jquery.min.js"></script>
+<!--        <script type="text/javascript" src="bootstrap.js"></script>-->
+        <script type="text/javascript" src="script.js"></script>
+<!--        <script type="text/javascript" src="script1.js"></script>-->
+<!--        <script type="text/javascript" src="script2.js"></script>-->
+    </body>
+</html>
