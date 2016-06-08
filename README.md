@@ -18,7 +18,15 @@
     
 ============================================================
 
-**Hint: Here are mp3s you can use for each button:**                *https://s3.amazonaws.com/freecodecamp/simonSound1.mp3,* *https://s3.amazonaws.com/freecodecamp/simonSound2.mp3,* *https://s3.amazonaws.com/freecodecamp/simonSound3.mp3,* *https://s3.amazonaws.com/freecodecamp/simonSound4.mp3.*
+**Hint: Here are mp3s you can use for each button:** 
+
+*https://s3.amazonaws.com/freecodecamp/simonSound1.mp3,*
+
+*https://s3.amazonaws.com/freecodecamp/simonSound2.mp3,*
+
+*https://s3.amazonaws.com/freecodecamp/simonSound3.mp3,*
+
+*https://s3.amazonaws.com/freecodecamp/simonSound4.mp3.*
 
 ===========================================================
 
