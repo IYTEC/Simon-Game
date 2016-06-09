@@ -5,12 +5,10 @@
         <link type="text/css" href="bootstrap.css" rel="stylesheet" />
     </head>
     <body>
-        <div class="wrapper">
-		<div class="back">
+            <div class="title text-center"><span>Simon Game</span></div>
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-2"></div>
-                    <div class="col-xs-8 main-simon">
+                <div class="row content">
+                    <div class="col-xs-8">
                          <div class="row">
                             <div class="col-xs-6 shape1" id="shape1">
                                 <audio preload="auto" id="sound-1">
@@ -39,22 +37,20 @@
                                 </audio>
                             </div>
                         </div>
-                      <div class="circle" id="cycle"></div>
                     </div>
-                    <div class="col-xs-2">
-                        <label>STAGE: </label><input type="text" value="0" id="stage" class="form-control"/>
-                        <br> <br>
-                        <span><label class="form-control">STRICT MODE:&nbsp;&nbsp;&nbsp;<input type="checkbox" id="strict_true"/> </label> <br>
+                    <div class="col-xs-4">
+                        <div id="controller"><span>Controllers</span></div>
+                        <div id="stage_cont"><label class="stage">STAGE: </label><input type="text" value="0" id="stage" class="form-control" /></div><br>
+                        <div id="mode"><label class="form-control strict_mode">STRICT MODE:&nbsp;&nbsp;&nbsp;<input type="checkbox" id="strict_true"/> </label></div><br>
+                        <div>
                         <input type="button" class="btn btn-primary" id="start" value="Start"/>&nbsp;&nbsp;
                         <input type="button" class="btn btn-success" id="reset" value="Reset"/>
+                        </div>
                     </div>
                 </div>
             </div>
-		</div>        
+		</div>          
         <script type="text/javascript" src="jquery.min.js"></script>
-<!--        <script type="text/javascript" src="bootstrap.js"></script>-->
         <script type="text/javascript" src="script.js"></script>
-<!--        <script type="text/javascript" src="script1.js"></script>-->
-<!--        <script type="text/javascript" src="script2.js"></script>-->
     </body>
 </html>
